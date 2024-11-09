@@ -5,6 +5,7 @@ import otherlogo from './icons/logo-png.png'; //Logo cupcake sin letras
 import tipografia from './icons/Chachis-tipografia.png'; //Nombre del negocio
 import user from './icons/icono-user.png'; //icono del usuario
 import shop from './icons/bag-icon.png'; //icono de lista de compras
+import dots from './icons/menu-icon.png';
 
 function Menu() {
     return (
@@ -20,8 +21,11 @@ function Menu() {
               </Link>
             </div>
             <nav>
+                <Link to="/perfil">
                 <img src={user} className="iconos" alt="Usuario"/>
+                </Link>
                 <img src={shop} className='iconos' alt="Carrito de compras" />
+                <img src={dots} className='icono-menu' alt="Más funciones"/>
             </nav>
         </header>
     );

@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0.8rem;
+    padding: 0.7rem;
     background-color: #FFFAE8;
 }
 
@@ -44,5 +44,12 @@ nav a {
 .iconos {
     height: 75px;
     margin-right: 15px;
+    margin-left: 15px;
+}
+
+.icono-menu {
+    height: 30px;
+    width: 15px;
     margin-right: 15px;
+    margin-left: 15px;
 }

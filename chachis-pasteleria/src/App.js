@@ -8,6 +8,7 @@ import ChatBotIcon from './components/ChatBotIcon';
 import ChatBot from './components/ChatBotPopUp';
 import Cumple from './components/Menu-cumple.js';
 import Infantil from './components/Menu-infantil.js';
+import Perfil from './components/PerfilUser.js';
 import './App.css';
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
                     <Route path="/chatbot" element={<ChatBot />} />
                     <Route path="/bday" element={<Cumple />} />
                     <Route path="/infantil" element={<Infantil />} />
+                    <Route path='/perfil' element={<Perfil />} />
                 </Routes>
 
                 <ChatBotIcon />
