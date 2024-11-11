@@ -73,7 +73,7 @@ label {
 
 .register-button {
     font-family: "Century Gothic", sans-serif;
-    background-color: #D9412C; /* Botón rojo */
+    background-color: #D9412C; 
     color: white;
     border: none;
     padding: 10px;
@@ -82,4 +82,5 @@ label {
     font-size: 1rem;
     cursor: pointer;
     margin-top: 1rem;
+    font-weight: bold;
 }
