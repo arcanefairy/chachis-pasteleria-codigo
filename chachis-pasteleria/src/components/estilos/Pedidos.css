@@ -1,32 +1,45 @@
-.pedidos-title {
+.pedidos-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    align-items: start;
+    padding: 2rem;
+    text-align: left;
     font-family: "Century Gothic", sans-serif;
-    font-size: 2rem;
+}
+
+.space {
+    margin-left: 15rem;
+}
+
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.pedidos-title {
+    grid-column: span 2;
     text-align: center;
-    justify-content: center;
+    font-size: 2rem;
     font-weight: bold;
     font-style: italic;
-    color: #333;
-    margin-bottom: -0.1rem;
+    color: #161616;
+    margin-top: -1rem;
+    margin-bottom: -0.2rem;
 }
 
 .pedidos-texto {
-    font-family: "Century Gothic", sans-serif;
-    display: block;
-    color: #141414;
     font-size: 1.4rem;
-    margin-top: 0.4rem;
-    margin-left: 4rem;
-    text-align: left;
+    color: #141414;
     font-style: italic;
+    margin: 0;
+    margin-bottom: 0.5rem;
 }
 
-select {
-    width: 30%;
-    display: flex;
-    justify-items:flex-start;
-    margin-left: 4rem;
-    margin-bottom: 1.5rem;
-    margin-top: -0.5rem;
+select, .input-pedido {
+    width: 100%;
+    max-width: 350px;
     padding: 12px;
     font-size: 16px;
     color: #7b4f2e;
@@ -34,7 +47,42 @@ select {
     border-radius: 8px;
     background-color: #f5e1c6;
     outline: none;
-    appearance: none;
-    position: relative;
     font-family: 'Century Gothic', sans-serif;
+    margin-bottom: 1.5rem;
+}
+
+.upload-button {
+    width: 100%;
+    max-width: 375px;
+    padding: 12px;
+    font-size: 16px;
+    color: #7b4f2e;
+    border: 1px solid #d4a373;
+    border-radius: 8px;
+    background-color: #f5e1c6;
+    outline: none;
+    font-family: 'Century Gothic', sans-serif;
+    margin-bottom: 1.5rem;
+}
+
+.pedidos-button {
+    margin-left: 2rem;
+    margin-top: 1rem;
+    width: 100%;
+    max-width: 300px;
+    padding: 12px;
+    font-size: 16px;
+    color: #ffffff;
+    border-radius: 10px;
+    background-color: #D9412C;
+    border: 1px solid #D9412C;
+    font-weight: bold;
+    outline: none;
+    font-family: 'Century Gothic', sans-serif;
+    margin-bottom: 1.5rem;
+}
+
+.upload-button {
+    cursor: pointer;
+    text-align: center;
 }

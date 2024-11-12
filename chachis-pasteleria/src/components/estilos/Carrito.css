@@ -1,0 +1,114 @@
+/* estilos/CarritoPopup.css */
+.carrito-popup {
+    position: fixed;
+    width: 300px;
+    height: 500px;
+    top: 60px; 
+    right: 20px;
+    background-color: #fffae8;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    font-family: "Century Gothic", sans-serif;
+    font-size: 0.7rem;
+    z-index: 1000;
+    display: flex; /* Añade flexbox en el contenedor principal */
+    flex-direction: column;
+}
+
+.cart-content {
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1; /* Asegura que este contenedor ocupe el espacio vertical disponible */
+    overflow-y: auto; /* Añade scroll si el contenido crece demasiado */
+}
+
+.total-text {
+    font-family: "Century Gothic", sans-serif;
+    text-align: left;
+    font-weight: bold;
+    color: #D9412C;
+    padding: 5px;
+    font-size: 1rem;
+    margin-top: auto;
+    margin-bottom: -13.5rem; /* Empuja el texto hacia la parte inferior */
+}
+
+.pagar-button {
+    justify-content: right;
+    margin-left: 6.5rem;
+    margin-top: auto;
+    font-family: "Century Gothic", sans-serif;
+    background-color: #D9412C; /* Botón rojo */
+    color: white;
+    border: none;
+    padding: 10px;
+    width: 50%;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+.carrito-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 9px;
+    background-color: #e8c7a4;
+    color: #161616;
+    font-weight: bold;
+    font-family: "Century Gothic", sans-serif;
+    gap: 8px;
+}
+
+
+.main-text-cart {
+    margin: 0;
+    display: flex;
+    text-align: left;
+    margin-left: -3rem;
+    font-family: "Century Gothic", sans-serif;
+    font-size: 0.9rem;
+}
+
+
+
+.order-container {
+    background-color: #e8c7a4;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5px 0;
+    color: #333;
+    font-weight: bold;
+    text-align: left;
+    font-family: "Century Gothic", sans-serif;
+    font-size: 0.71rem;
+}
+
+.cake-img {
+    height: fit-content;
+    width: 40%;
+    justify-items: left;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+}
+
+.close-button-cart {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+}
+
+.close-icon-cart {
+    margin-top: 0.2rem;
+    width: 30px;
+    height: 25px;
+}

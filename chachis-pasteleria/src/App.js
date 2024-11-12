@@ -11,6 +11,8 @@ import Infantil from './components/Menu-infantil.js';
 import Perfil from './components/PerfilUser.js';
 import Cambiar from './components/CambiarContra.js';
 import Pedido from './components/Pedidos.js';
+import Personalizado from './components/Menu-pers.js';
+import Wedding from './components/Menu-Wedding.js';
 import './App.css';
 
 function App() {
@@ -28,6 +30,8 @@ function App() {
                     <Route path='/perfil' element={<Perfil />} />
                     <Route path='/cambiar' element={<Cambiar />} />
                     <Route path='/pedidos' element={<Pedido />} />
+                    <Route path='/personalizado' element={<Personalizado />} />
+                    <Route path='/wedding' element={<Wedding />} />
                 </Routes>
 
                 <ChatBotIcon />
