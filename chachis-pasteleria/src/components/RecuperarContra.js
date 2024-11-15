@@ -1,5 +1,5 @@
 import React from 'react';
-import './estilos/RecuperarContra.css'; // Asegúrate de crear el archivo de estilos
+import './estilos/RecuperarContra.css'; 
 import logo from './icons/logo-chachis-circle.png';
 
 function RecuperarC({ isOpen, onClose, onOpenChange }) {
@@ -12,7 +12,7 @@ function RecuperarC({ isOpen, onClose, onOpenChange }) {
                 <img src={logo} alt="Chachis Pastelería Logo" className="modal-logo-reg" />
                 <p className='mainText'>Se te enviará un código, confirma tu correo electrónico</p>
                 <form onSubmit={(e) => {
-                    e.preventDefault(); // Previene el comportamiento por defecto del formulario
+                    e.preventDefault(); 
                     onClose();
                     onOpenChange();
                 }}>

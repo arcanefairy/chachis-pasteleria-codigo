@@ -13,6 +13,8 @@ import Cambiar from './components/CambiarContra.js';
 import Pedido from './components/Pedidos.js';
 import Personalizado from './components/Menu-pers.js';
 import Wedding from './components/Menu-Wedding.js';
+import Agregar from './components/addCarrito.js';
+import PP from './components/ProcederPago.js';
 import './App.css';
 
 function App() {
@@ -32,6 +34,8 @@ function App() {
                     <Route path='/pedidos' element={<Pedido />} />
                     <Route path='/personalizado' element={<Personalizado />} />
                     <Route path='/wedding' element={<Wedding />} />
+                    <Route path='/add' element={<Agregar />}/>
+                    <Route path='/PP' element= {<PP />}/>
                 </Routes>
 
                 <ChatBotIcon />
@@ -39,6 +43,7 @@ function App() {
         </Router>
     );
 }
+
 
 function ConditionalHeader() {
     const location = useLocation();
