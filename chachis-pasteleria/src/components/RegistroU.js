@@ -1,7 +1,6 @@
 import React from 'react';
 import './estilos/RegistroU.css';
 import logo from './icons/logo-png.png';
-import back from './icons/backwards.png'
 
 function RegistroU({ isOpen, onClose, openLogin}) {
     if (!isOpen) return null;
@@ -10,9 +9,6 @@ function RegistroU({ isOpen, onClose, openLogin}) {
         <div className="modal-overlay-reg" onClick={onClose}>
             <div className="modal-content-reg" onClick={(e) => e.stopPropagation()}>
                 <button className="close-button" onClick={onClose}>X</button>
-                <button className="back-button" onClick={openLogin}>
-                    <img src={back} alt="Atrás" className='back-button'/>
-                </button>
                 <img src={logo} alt="Chachis Pastelería Logo" className="modal-logo-reg" />
 
                 <p className='registrarse'>¡Regístrate en Chachis Pastelería!</p>

@@ -9,7 +9,7 @@ function Carrito({ onClose }) {
     return (
         <div className="carrito-popup">
             <div className="carrito-header">
-                <p className='main-text-cart'>Carrito de compras</p>
+                <p className='title-header-cart'>Carrito de compras</p>
                 <button className="close-button-cart" onClick={onClose}>
                     <img src={exit} alt="Cerrar" className="close-icon-cart" />
                 </button>

@@ -11,7 +11,7 @@ import Infantil from './components/Menu-infantil.js';
 import Perfil from './components/PerfilUser.js';
 import Cambiar from './components/CambiarContra.js';
 import Pedido from './components/Pedidos.js';
-import Personalizado from './components/Menu-pers.js';
+import Personalizado from './components/Pedidos.js';
 import Wedding from './components/Menu-Wedding.js';
 import Agregar from './components/addCarrito.js';
 import PP from './components/ProcederPago.js';
